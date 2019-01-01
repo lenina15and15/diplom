@@ -1,0 +1,35 @@
+PODS:
+  - AppusViper (1.1.0)
+  - Realm (3.12.0):
+    - Realm/Headers (= 3.12.0)
+  - Realm/Headers (3.12.0)
+  - RealmSwift (3.12.0):
+    - Realm (= 3.12.0)
+
+DEPENDENCIES:
+  - "AppusViper (from `git@gitlab.appus.software:ios/VIPER-template.git`, branch `develop`)"
+  - RealmSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Realm
+    - RealmSwift
+
+EXTERNAL SOURCES:
+  AppusViper:
+    :branch: develop
+    :git: "git@gitlab.appus.software:ios/VIPER-template.git"
+
+CHECKOUT OPTIONS:
+  AppusViper:
+    :commit: c424653d8713fce4165854cf0b214d1e47e98f20
+    :git: "git@gitlab.appus.software:ios/VIPER-template.git"
+
+SPEC CHECKSUMS:
+  AppusViper: a7193a0e4ce0ab2993f01e16db5f6a8176a4db3b
+  Realm: cdaef23c4ddb36ab1ddffed23f5a7f3332fc5585
+  RealmSwift: 5576324033f0aa5ef1e0a839a3da2281dff47a7f
+
+PODFILE CHECKSUM: f6401b885d99aef70adaa79682370f9c0887a455
+
+COCOAPODS: 1.5.3
