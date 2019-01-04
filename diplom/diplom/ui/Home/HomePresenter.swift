@@ -10,7 +10,7 @@ import Foundation
 import AppusViper
 
 protocol HomePresenterProtocol: class {
-
+    var vacancies: Vacancies {get}
 }
 
 final class HomePresenter: ViperPresenter {
@@ -24,5 +24,8 @@ extension HomePresenter: ViewLifeCycleProtocol {
 }
 
 extension HomePresenter: HomePresenterProtocol {
+    var vacancies: Vacancies {
+        return self.interactor.vacancies
+    }
 
 }

@@ -1,0 +1,224 @@
+[
+  {
+    "code": 1,
+    "name": "Acrylic Block",
+    "shouldGenerateColorTags": false,
+    "isEnabled": true
+  },
+  {
+    "code": 2,
+    "name": "Adhesive",
+    "shouldGenerateColorTags": false,
+    "isEnabled": true
+  },
+  {
+    "code": 3,
+    "name": "Brad, Eyelet, Button",
+    "shouldGenerateColorTags": false,
+    "isEnabled": true
+  },
+  {
+    "code": 4,
+    "name": "Charm",
+    "shouldGenerateColorTags": false,
+    "isEnabled": true
+  },
+  {
+    "code": 5,
+    "name": "Die",
+    "shouldGenerateColorTags": false,
+    "isEnabled": true
+  },
+  {
+    "code": 6,
+    "name": "Die Cut/Ephemera",
+    "shouldGenerateColorTags": true,
+    "isEnabled": true
+  },
+  {
+    "code": 7,
+    "name": "Die Cutting Cartridge",
+    "shouldGenerateColorTags": false,
+    "isEnabled": true
+  },
+  {
+    "code": 8,
+    "name": "TBD",
+    "shouldGenerateColorTags": false,
+    "isEnabled": true
+  },
+  {
+    "code": 9,
+    "name": "Die Cutting Material",
+    "shouldGenerateColorTags": true,
+    "isEnabled": true
+  },
+  {
+    "code": 10,
+    "name": "Dots/Drop",
+    "shouldGenerateColorTags": true,
+    "isEnabled": true
+  },
+  {
+    "code": 11,
+    "name": "Embellishment",
+    "shouldGenerateColorTags": true,
+    "isEnabled": true
+  },
+  {
+    "code": 12,
+    "name": "Embossing Folder",
+    "shouldGenerateColorTags": false,
+    "isEnabled": true
+  },
+  {
+    "code": 13,
+    "name": "Embossing Powder",
+    "shouldGenerateColorTags": true,
+    "isEnabled": true
+  },
+  {
+    "code": 14,
+    "name": "Foil",
+    "shouldGenerateColorTags": true,
+    "isEnabled": true
+  },
+  {
+    "code": 15,
+    "name": "Glitter",
+    "shouldGenerateColorTags": true,
+    "isEnabled": true
+  },
+  {
+    "code": 16,
+    "name": "Ink Pad",
+    "shouldGenerateColorTags": true,
+    "isEnabled": true
+  },
+  {
+    "code": 17,
+    "name": "Ink, Re-inker",
+    "shouldGenerateColorTags": true,
+    "isEnabled": true
+  },
+  {
+    "code": 18,
+    "name": "Journal/Album",
+    "shouldGenerateColorTags": false,
+    "isEnabled": true
+  },
+  {
+    "code": 19,
+    "name": "Mixed Media",
+    "shouldGenerateColorTags": true,
+    "isEnabled": true
+  },
+  {
+    "code": 20,
+    "name": "Paint",
+    "shouldGenerateColorTags": true,
+    "isEnabled": true
+  },
+  {
+    "code": 21,
+    "name": "Paper Punch",
+    "shouldGenerateColorTags": false,
+    "isEnabled": true
+  },
+  {
+    "code": 22,
+    "name": "Paper/Cardstock",
+    "shouldGenerateColorTags": true,
+    "isEnabled": true
+  },
+  {
+    "code": 23,
+    "name": "Pen, Pencil, Marker",
+    "shouldGenerateColorTags": true,
+    "isEnabled": true
+  },
+  {
+    "code": 24,
+    "name": "Ribbon/Twine",
+    "shouldGenerateColorTags": true,
+    "isEnabled": true
+  },
+  {
+    "code": 25,
+    "name": "Sequin",
+    "shouldGenerateColorTags": true,
+    "isEnabled": true
+  },
+  {
+    "code": 26,
+    "name": "Speciality Paper",
+    "shouldGenerateColorTags": true,
+    "isEnabled": true
+  },
+  {
+    "code": 27,
+    "name": "Stamp",
+    "shouldGenerateColorTags": false,
+    "isEnabled": true
+  },
+  {
+    "code": 28,
+    "name": "Stamp/Mounted",
+    "shouldGenerateColorTags": false,
+    "isEnabled": true
+  },
+  {
+    "code": 29,
+    "name": "Stamp/Unmounted",
+    "shouldGenerateColorTags": false,
+    "isEnabled": true
+  },
+  {
+    "code": 30,
+    "name": "Stencil",
+    "shouldGenerateColorTags": false,
+    "isEnabled": true
+  },
+  {
+    "code": 31,
+    "name": "Sticker",
+    "shouldGenerateColorTags": true,
+    "isEnabled": true
+  },
+  {
+    "code": 32,
+    "name": "Washi Tape",
+    "shouldGenerateColorTags": true,
+    "isEnabled": true
+  },
+  {
+    "code": 33,
+    "name": "Watercolor",
+    "shouldGenerateColorTags": true,
+    "isEnabled": true
+  },
+  {
+    "code": 34,
+    "name": "Envelope",
+    "shouldGenerateColorTags": true,
+    "isEnabled": true
+  },
+  {
+    "code": 35,
+    "name": "Tag",
+    "shouldGenerateColorTags": true,
+    "isEnabled": true
+  },
+  {
+    "code": 36,
+    "name": "Kit",
+    "shouldGenerateColorTags": false,
+    "isEnabled": true
+  },
+  {
+    "code": 37,
+    "name": "Sprtiz/Spray",
+    "shouldGenerateColorTags": false,
+    "isEnabled": true
+  }
+]

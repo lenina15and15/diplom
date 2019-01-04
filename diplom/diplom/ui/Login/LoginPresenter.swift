@@ -10,8 +10,8 @@ import Foundation
 import AppusViper
 
 protocol LoginPresenterProtocol: class {
-    func toRegistrationVC()
     func toHomeVC()
+    func login(email: String?, password: String?)
 }
 
 final class LoginPresenter: ViperPresenter {
@@ -25,12 +25,17 @@ extension LoginPresenter: ViewLifeCycleProtocol {
 }
 
 extension LoginPresenter: LoginPresenterProtocol {
-    func toRegistrationVC() {
-        self.router.toRegistrationVC()
-    }
-    
     func toHomeVC() {
         self.router.toHomeVC()
+    }
+    
+    func login(email: String?, password: String?) {
+        if let email = email, let password = password {
+            if let user = self.interactor.login(email: email, password: password) {
+                Session.current?.user = user
+                self.toHomeVC()
+            }
+        }
     }
     
 }
