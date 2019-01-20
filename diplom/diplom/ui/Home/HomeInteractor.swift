@@ -25,9 +25,14 @@ extension HomeInteractor: HomeInteractorProtocol {
             for (_, vacancy) in vacancies {
                 newVacancies.append(vacancy)
             }
-            return newVacancies
+//            return newVacancies
         }
-        return Vacancies()
+        var newVacancies = Vacancies()
+        for _ in 0...10 {
+            let vacancy = Vacancy.init()
+            newVacancies.append(vacancy)
+        }
+        return newVacancies
     }
 
 }

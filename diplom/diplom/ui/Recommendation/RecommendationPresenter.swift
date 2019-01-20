@@ -10,7 +10,7 @@ import Foundation
 import AppusViper
 
 protocol RecommendationPresenterProtocol: class {
-
+    var vacancies: Vacancies {get}
 }
 
 final class RecommendationPresenter: ViperPresenter {
@@ -24,5 +24,7 @@ extension RecommendationPresenter: ViewLifeCycleProtocol {
 }
 
 extension RecommendationPresenter: RecommendationPresenterProtocol {
-
+    var vacancies: Vacancies {
+        return self.interactor.vacancies
+    }
 }

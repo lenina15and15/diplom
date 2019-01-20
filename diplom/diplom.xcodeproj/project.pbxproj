@@ -41,8 +41,8 @@
 		68305EE321DE7E490097F621 /* post.json in Resources */ = {isa = PBXBuildFile; fileRef = 68305EE221DE7E490097F621 /* post.json */; };
 		68305EE521DE7E530097F621 /* education.json in Resources */ = {isa = PBXBuildFile; fileRef = 68305EE421DE7E530097F621 /* education.json */; };
 		68305EE721DE90380097F621 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68305EE621DE90380097F621 /* Tag.swift */; };
-		68305EEA21DE993F0097F621 /* VacancyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68305EE921DE993F0097F621 /* VacancyCell.swift */; };
-		68305EEC21DE99740097F621 /* VacancyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68305EEB21DE99740097F621 /* VacancyCell.xib */; };
+		6884EC4021F243200028EDDF /* VacancyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6884EC3F21F243200028EDDF /* VacancyCell.xib */; };
+		6884EC4221F2437E0028EDDF /* VacancyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6884EC4121F2437E0028EDDF /* VacancyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,8 +83,8 @@
 		68305EE221DE7E490097F621 /* post.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = post.json; sourceTree = "<group>"; };
 		68305EE421DE7E530097F621 /* education.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = education.json; sourceTree = "<group>"; };
 		68305EE621DE90380097F621 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
-		68305EE921DE993F0097F621 /* VacancyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyCell.swift; sourceTree = "<group>"; };
-		68305EEB21DE99740097F621 /* VacancyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VacancyCell.xib; sourceTree = "<group>"; };
+		6884EC3F21F243200028EDDF /* VacancyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VacancyCell.xib; sourceTree = "<group>"; };
+		6884EC4121F2437E0028EDDF /* VacancyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VacancyCell.swift; sourceTree = "<group>"; };
 		845A29505DBC06B74B4478FC /* Pods-diplom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-diplom.release.xcconfig"; path = "Pods/Target Support Files/Pods-diplom/Pods-diplom.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -252,8 +252,8 @@
 		68305EE821DE992F0097F621 /* VacancyCell */ = {
 			isa = PBXGroup;
 			children = (
-				68305EE921DE993F0097F621 /* VacancyCell.swift */,
-				68305EEB21DE99740097F621 /* VacancyCell.xib */,
+				6884EC4121F2437E0028EDDF /* VacancyCell.swift */,
+				6884EC3F21F243200028EDDF /* VacancyCell.xib */,
 			);
 			path = VacancyCell;
 			sourceTree = "<group>";
@@ -330,12 +330,12 @@
 				68305EE321DE7E490097F621 /* post.json in Resources */,
 				68305ECF21DE70F50097F621 /* ProfileViewController.storyboard in Resources */,
 				68305EE521DE7E530097F621 /* education.json in Resources */,
+				6884EC4021F243200028EDDF /* VacancyCell.xib in Resources */,
 				6826523B21DBA4AD00DD1194 /* LaunchScreen.storyboard in Resources */,
 				6826523821DBA4AD00DD1194 /* Assets.xcassets in Resources */,
 				6826526D21DBA9C400DD1194 /* HomeViewController.storyboard in Resources */,
 				68305EE121DE7E340097F621 /* vacancy.json in Resources */,
 				6826526321DBA9B900DD1194 /* LoginViewController.storyboard in Resources */,
-				68305EEC21DE99740097F621 /* VacancyCell.xib in Resources */,
 				6826523621DBA4A900DD1194 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,12 +406,12 @@
 				6826526F21DBA9C400DD1194 /* HomeInteractor.swift in Sources */,
 				68305EDB21DE74C60097F621 /* UserInfo.swift in Sources */,
 				6826526C21DBA9C400DD1194 /* HomePresenter.swift in Sources */,
+				6884EC4221F2437E0028EDDF /* VacancyCell.swift in Sources */,
 				6826527021DBA9C400DD1194 /* Home.swift in Sources */,
 				68305EC721DE70E90097F621 /* RecommendationInteractor.swift in Sources */,
 				68305EC621DE70E90097F621 /* RecommendationViewController.swift in Sources */,
 				6826526521DBA9B900DD1194 /* LoginInteractor.swift in Sources */,
 				6826526E21DBA9C400DD1194 /* HomeViewController.swift in Sources */,
-				68305EEA21DE993F0097F621 /* VacancyCell.swift in Sources */,
 				68305ED721DE74130097F621 /* Session.swift in Sources */,
 				68305EE721DE90380097F621 /* Tag.swift in Sources */,
 				68305ECE21DE70F50097F621 /* ProfilePresenter.swift in Sources */,
